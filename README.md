@@ -12,3 +12,6 @@ https://nlp100.github.io/ja/
 - [07. テンプレートによる文生成](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch01/07_answer.py)
 - [08. 暗号文](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch01/08_answer.py)
 - [09. Typoglycemia](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch01/09_answer.py)
+
+## [第2章: UNIXコマンド](https://nlp100.github.io/ja/ch02.html)
+- [10 - 19](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch02/chapter2.ipynb)
