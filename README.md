@@ -15,3 +15,15 @@ https://nlp100.github.io/ja/
 
 ## [第2章: UNIXコマンド](https://nlp100.github.io/ja/ch02.html)
 - [10 - 19](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch02/chapter2.ipynb)
+
+## [第3章: 正規表現](https://nlp100.github.io/ja/ch03.html)
+- [20. JSONデータの読み込み](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
+- [21. カテゴリ名を含む行を抽出](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
+- [22. カテゴリ名の抽出](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
+- [23. セクション構造](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
+- [24. ファイル参照の抽出](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
+- [25. テンプレートの抽出](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
+- [26. 強調マークアップの除去](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
+- [27. 内部リンクの除去](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
+- [28. MediaWikiマークアップの除去](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
+- [29. 国旗画像のURLを取得する](https://github.com/wakamezake/nlp_q100_2020/blob/master/ch03/20_answer.py)
