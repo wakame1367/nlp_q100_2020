@@ -20,8 +20,3 @@ if __name__ == '__main__':
             value = split_text[1]
             result[key] = value
     pprint(result)
-    # pat = re.compile(r'^\|(.+?)\s*=\s*(.+?)(?: (?=\n\|) | (?=\n$))',
-    #                  re.MULTILINE + re.DOTALL)
-    #
-    # match = pat.findall(match_text)
-    # print(match)
