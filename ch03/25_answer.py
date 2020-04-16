@@ -3,6 +3,7 @@ https://nlp100.github.io/ja/ch03.html#25-%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3
 """
 import re
 from util import get_text
+from pprint import pprint
 
 if __name__ == '__main__':
     pat = re.compile(r'^\{\{基礎情報.*?$(.*?)^\}\}',
@@ -10,8 +11,17 @@ if __name__ == '__main__':
     text = get_text()
     match = pat.findall(text)
     match_text = match[0]
-    pat = re.compile(r'^\|(.+?)\s*=\s*(.+?)(?: (?=\n\|) | (?=\n$))',
-                     re.MULTILINE + re.DOTALL)
-
-    match = pat.findall(match_text)
-    print(match)
+    sep = ' = '
+    result = {}
+    for t in match_text.split('\n'):
+        if sep in t:
+            split_text = t.split(' = ')
+            key = split_text[0].lstrip('|')
+            value = split_text[1]
+            result[key] = value
+    pprint(result)
+    # pat = re.compile(r'^\|(.+?)\s*=\s*(.+?)(?: (?=\n\|) | (?=\n$))',
+    #                  re.MULTILINE + re.DOTALL)
+    #
+    # match = pat.findall(match_text)
+    # print(match)
