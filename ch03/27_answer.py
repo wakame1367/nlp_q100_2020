@@ -1,5 +1,5 @@
 """
-https://nlp100.github.io/ja/ch03.html#25-%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AE%E6%8A%BD%E5%87%BA
+https://nlp100.github.io/ja/ch03.html#27-%E5%86%85%E9%83%A8%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%AE%E9%99%A4%E5%8E%BB
 """
 import re
 from util import get_text
